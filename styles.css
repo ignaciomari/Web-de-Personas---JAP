@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el modo Noche */
+.modo-noche {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+/* Estilos para el botón Modo Día/Noche */
+#modo-toggle {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para el buscador */
+#buscador {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de búsqueda  */
+#buscar-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+  .noche {
+    color: #EB4C49;
+    background: #0c091d;
+  }
+
+  .noche  span {
+    visibility: hidden;
+    position: relative;
+    display: inline-flex;
+  }
+
+  .noche span:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\274D";
+  }
